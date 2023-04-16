@@ -1,0 +1,2 @@
+# TryUsingIntersectionObserverAPI
+IntersectionObserverAPIを使ってみる
