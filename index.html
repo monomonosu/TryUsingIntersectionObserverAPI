@@ -67,10 +67,12 @@
 <script>
     const ele = document.querySelector("#header");
     const ele2 = document.querySelector("#under-menu")
+    // オプションを指定する事ができる。
     const options = {
         threshold: 0
     };
     const onScreen = (entries) => {
+        // InterSectionObserverEntryを参照し、表示・非表示を切り替える
         if(entries[0].isIntersecting){
             ele2.hidden = true;
         }
